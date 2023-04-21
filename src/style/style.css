@@ -1,0 +1,144 @@
+/* CSS global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* Header */
+.header {
+  background-color: #1B1B1B;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #E50914;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation a {
+  margin-right: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Formulário */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.form button[type='submit'] {
+  display: block;
+  width: 100%;
+  background-color: #1B1B1B;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Lista de serviços */
+.services-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-list h2 {
+  margin-bottom: 20px;
+}
+
+.services-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.services-list table th,
+.services-list table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.services-list table th {
+  background-color: #1B1B1B;
+  color: #ffffff;
+}
+
+.services-list table td:last-child {
+  text-align: right;
+}
+
+/* Tela de confirmação */
+.confirmation {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h2 {
+  margin-bottom: 20px;
+}
+
+.confirmation p {
+  margin-bottom: 10px;
+}
+
+.confirmation label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.confirmation input[type='text'],
+.confirmation input[type='date'] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
